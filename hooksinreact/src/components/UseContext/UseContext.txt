@@ -1,0 +1,14 @@
+React useContext hook make it easy to pass the data through you app without manually passing props down the tree
+
+
+It makes up part of React Context API(the other Parts being the Provider
+and Consumer components)Context can make a nice simple alternative to 
+Redux when your data is simple or your app is small
+
+
+Context
+provider
+consumer==>useContext
+
+
+context API/useContext

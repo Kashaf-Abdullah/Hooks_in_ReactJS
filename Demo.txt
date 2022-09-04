@@ -1,0 +1,12 @@
+WHAT IS A HOOK?
+A hook is a special function that lets you "hook into" React feature.
+
+useState() is a hook that lets you add React state to function components.
+
+
+/.JSON PLACEHOLDER(you can find so many API)
+
+
+
+//REACT ICONS
+npm install react-icons --save
