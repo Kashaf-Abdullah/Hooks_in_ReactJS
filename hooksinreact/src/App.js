@@ -13,7 +13,11 @@ import ReactHooksProject from "./components/ReactHooksProject";
 import Ref_UseRef_Hooks from "./components/Ref_UseRef_Hooks";
 import UseReducerHook from "./components/UseReducerHook";
 import CompA from "./components/UseContext/CompA";
+import CustomeHooks from "./components/CustomHooks/CustomeHooks";
 
+
+import ReactToastify from "./components/ReactToastify";
+import Todo from "./components/ReactTodoApp/todo";
 
 const App=()=>{
 const [name,setName]=useState("kashaff")
@@ -48,7 +52,19 @@ const submit2=()=>{
 {/* <ReactHooksProject/> */}
 {/* <Ref_UseRef_Hooks/> */}
 {/* <UseReducerHook/> */}
-<CompA/>
+{/* <CompA/> */}
+{/* <CustomeHooks/> */}
+{/* <Router>
+  <Nav/>
+  
+  <Route path="/" component={Home}></Route>
+  <Route path="/about" component={About}></Route>
+  
+  /
+</Router> */}
+{/* <ReactToastify/> */}
+
+<Todo/>
     </>
   )
 }
